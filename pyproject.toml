@@ -1,0 +1,23 @@
+[project]
+name = "gred-dau"
+version = "0.1.0"
+description = "Official Pytorch implementation of the paper "[Graph Signal Denoising Using
+Regularization by Denoising and Its Parameter Estimation]()" (accepted to APSIPA TSIP)."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "click>=8.2.1",
+    "cvxpy>=1.7.1",
+    "fpsample>=0.3.3",
+    "matplotlib>=3.10.5",
+    "networkx>=3.5",
+    "open3d>=0.19.0",
+    "optuna>=4.4.0",
+    "pandas>=2.3.1",
+    "pygsp>=0.5.1",
+    "scikit-learn>=1.7.1",
+    "snakeviz>=2.2.2",
+    "torch>=2.7.1",
+    "torch-geometric>=2.6.1",
+    "wheel>=0.45.1",
+]

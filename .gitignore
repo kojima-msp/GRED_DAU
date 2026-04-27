@@ -1,0 +1,26 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# vscode settings
+.vscode/
+
+# dataset
+datasets/ModelNet10/
+datasets/npz_files/
+
+# macOS
+**/.DS_Store
+
+# output
+out/
+
+# pretrained weights
+src/exp/train/pretrained_weights/
