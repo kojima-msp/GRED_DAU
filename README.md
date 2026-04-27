@@ -2,7 +2,7 @@ GRED_DAU
 ====
 
 [![paper-info](https://img.shields.io/badge/APSIPA_TSIP-Accepted-gray?labelColor=00629B)]()
-<!-- [![doi](https://img.shields.io/badge/DOI-10.1109/TSIPN.2026.3683184-gray?labelColor=FCB61F)](https:doi.org/10.1109/TSIPN.2026.3683184) -->
+[![doi](https://img.shields.io/badge/DOI-10.48550/arXiv.2512.14213-gray?labelColor=FCB61F)](https://doi.org/10.48550/arXiv.2512.14213)
 [![arXiv](https://img.shields.io/badge/arXiv-2512.14213-gray?labelColor=b31b1b)](https://arxiv.org/abs/2512.14213)
 [![Python](https://custom-icon-badges.herokuapp.com/badge/Python-3572A5?logo=Python&logoColor=white)]()
 [![our-page](https://img.shields.io/badge/Our_Homepage-green)](https://www.sip.comm.eng.osaka-u.ac.jp/)
@@ -24,8 +24,8 @@ uv tool install gdown
 source .venv/bin/activate
 
 # install dataset and pretrained weights
-gdown "https://drive.google.com/drive/folders/1eZ701SPcZMNog6zkgjajdO_b0Ydx5Piv?usp=sharing" --folder -O datasets/npz_files/
-gdown "https://drive.google.com/drive/folders/1KgOV3VC1l18PwdarzKh7B5299FUuwaHR?usp=drive_link" --folder -O src/exp/train/pretrained_weights/
+gdown "https://drive.google.com/drive/folders/10q2CwEwEiOQ7veMjyG5-D8froEd2Zjsf?usp=drive_link" --folder -O datasets/
+gdown "https://drive.google.com/drive/folders/1KgOV3VC1l18PwdarzKh7B5299FUuwaHR?usp=drive_link" --folder -O src/exp/train/
 ```
 
 ## Usage

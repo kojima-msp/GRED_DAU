@@ -1,8 +1,7 @@
 [project]
 name = "gred-dau"
 version = "0.1.0"
-description = "Official Pytorch implementation of the paper "[Graph Signal Denoising Using
-Regularization by Denoising and Its Parameter Estimation]()" (accepted to APSIPA TSIP)."
+description = "Official Pytorch implementation of the paper `"Graph Signal Denoising Using Regularization by Denoising and Its Parameter Estimation`" (accepted to APSIPA TSIP)."
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
