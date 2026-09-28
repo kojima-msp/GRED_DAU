@@ -2,7 +2,7 @@ GRED_DAU
 ====
 
 [![paper-info](https://img.shields.io/badge/APSIPA_TSIP-Open_Access-gray?labelColor=00629B)](https://www.emerald.com/atsip/article/15/1/332/1367519/Graph-signal-denoising-using-regularization-by)
-[![doi](https://img.shields.io/badge/DOI-10.1108/ATSIP-12-2025-0110-gray?labelColor=FCB61F)](https://doi.org/10.1108/ATSIP-12-2025-0110)
+[![doi](https://img.shields.io/badge/DOI-10.1108%2FATSIP--12--2025--0110-gray?labelColor=FCB61F)](https://doi.org/10.1108/ATSIP-12-2025-0110)
 [![arXiv](https://img.shields.io/badge/arXiv-2512.14213-gray?labelColor=b31b1b)](https://arxiv.org/abs/2512.14213)
 [![Python](https://custom-icon-badges.herokuapp.com/badge/Python-3572A5?logo=Python&logoColor=white)]()
 [![our-page](https://img.shields.io/badge/Our_Homepage-green)](https://www.sip.comm.eng.osaka-u.ac.jp/)
