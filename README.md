@@ -8,7 +8,7 @@ GRED_DAU
 [![our-page](https://img.shields.io/badge/Our_Homepage-green)](https://www.sip.comm.eng.osaka-u.ac.jp/)
 
 Official Pytorch implementation of the paper "[Graph Signal Denoising Using
-Regularization by Denoising and Its Parameter Estimation]()" (accepted to APSIPA TSIP).
+Regularization by Denoising and Its Parameter Estimation](https://doi.org/10.1108/ATSIP-12-2025-0110)" (accepted to APSIPA TSIP).
 
 ## Abstract
 > In this paper, we propose an interpretable denoising method for graph signals using regularization by denoising (RED). RED is a technique developed for image restoration that uses an efficient (and sometimes black-box) denoiser in the regularization term of the optimization problem. By using RED, optimization problems can be designed with the explicit use of the denoiser, and the gradient of the regularization term can be easily computed under mild conditions. We adapt RED for denoising of graph signals beyond image processing. We show that many graph signal denoisers, including graph neural networks, theoretically or practically satisfy the conditions for RED. We also study the effectiveness of RED from a graph filter perspective. Furthermore, we propose supervised and unsupervised parameter estimation methods based on deep algorithm unrolling. These methods aim to enhance the algorithm applicability, particularly in the unsupervised setting. Denoising experiments for synthetic and real-world datasets show that our proposed method improves signal denoising accuracy in mean squared error compared to existing graph signal denoising methods.
@@ -86,5 +86,17 @@ python src/exp/eval/calc_computation_time.py --dataset modelnet
 ```
 
 ## Citation
-```
+```bibtex
+@article{kojima2026gred,
+    author  = {Kojima, Hayate and Higashi, Hiroshi and Tanaka, Yuichi},
+    title   = {Graph signal denoising using regularization by denoising and its parameter estimation},
+    journal = {APSIPA Transactions on Signal and Information Processing},
+    volume  = {15},
+    number  = {1},
+    pages   = {332--351},
+    year    = {2026},
+    issn    = {2048-7703},
+    doi     = {10.1108/ATSIP-12-2025-0110},
+    url     = {https://doi.org/10.1108/ATSIP-12-2025-0110},
+}
 ```
