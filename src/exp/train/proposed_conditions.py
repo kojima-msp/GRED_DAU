@@ -106,7 +106,7 @@ def main(dataset):
     ax2.grid(True, which='both', linestyle='--', linewidth=0.5)
 
     plt.tight_layout()
-    plt.savefig(f'out/img/condition1_{dataset}.pdf')
+    plt.savefig(f'out/img/condition1_{dataset}.pdf', bbox_inches='tight')
 
 if __name__ == "__main__":
     main()

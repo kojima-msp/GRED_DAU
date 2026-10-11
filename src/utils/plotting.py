@@ -31,7 +31,7 @@ def plot_bandlimited(A, coords, signal, fname,vmax=None, vmin=None):
     plt.grid(color = 'gray', linestyle = '-', linewidth = 0.5)
 
     fig.tight_layout()
-    plt.savefig(fname)
+    plt.savefig(fname, bbox_inches='tight')
 
 def plot_3dpc(A,data,signal,fname, vmax=None, vmin=None):
     plt.set_cmap('turbo')
@@ -54,5 +54,5 @@ def plot_3dpc(A,data,signal,fname, vmax=None, vmin=None):
     plt.colorbar(sc)
     
     # plt.tight_layout()
-    plt.savefig(fname)
+    plt.savefig(fname, bbox_inches='tight')
     plt.close()
